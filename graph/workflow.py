@@ -12,7 +12,7 @@ class GraphState(TypedDict):
 
 def compare_skills(state: GraphState):
     student_skills = {
-        s["skill"].lower(): s
+        s["name"].lower(): s
         for s in state["student"]["skills"]
     }
 
