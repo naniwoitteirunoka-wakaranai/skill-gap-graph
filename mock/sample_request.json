@@ -1,0 +1,42 @@
+{
+  "student": {
+    "student_id": "STU001",
+    "name": "Alice",
+    "skills": [
+      {
+        "skill": "React",
+        "confidence": 0.92,
+        "source": "github"
+      },
+      {
+        "skill": "CSS",
+        "confidence": 0.88,
+        "source": "resume"
+      },
+      {
+        "skill": "JavaScript",
+        "confidence": 0.90,
+        "source": "github"
+      }
+    ]
+  },
+
+  "job": {
+    "company": "Google",
+    "role": "Frontend Developer",
+    "skills": [
+      {
+        "skill": "React",
+        "importance": "high"
+      },
+      {
+        "skill": "TypeScript",
+        "importance": "high"
+      },
+      {
+        "skill": "CSS",
+        "importance": "medium"
+      }
+    ]
+  }
+}
